@@ -14,7 +14,7 @@ diverse, inclusive, and healthy community.
 
 ## Our Standards
 
-Examples of behavior that contributes to a positive environment for our
+FitDevs strives to create and maintain a culture of collaboration, integrity, respect, and compassion for the self and others. Examples of behavior that conducive to upholding this culture for our
 community include:
 
 * Demonstrating empathy and kindness toward other people
