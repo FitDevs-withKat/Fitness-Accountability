@@ -1,7 +1,7 @@
 # Fitness-Accountability
 
 - Name: Have this alphabetic
-- Why
+- Why: Why do you need Fitness Accountability
 - Weekly: What is your schedule
 - Goal
 
