@@ -2,9 +2,9 @@
 
 - Name: Have this alphabetic
 - Why
-- Weekly: What is your schedule
 - Goal
+- Weekly: What is your schedule
 
-| NAME | WHY | WEEKLY | GOAL |
+| NAME | WHY | GOAL | WEEKLY |
 | :--- | :--- | :--- | :--- |
-| [Katalyst Kat](https://github.com/katalystkat) | To prioritize lifelong health| Walk my dogs 2x/day, Stretch 2 everyday | Be Consciously Healthy |
+| [Katalyst Kat](https://github.com/katalystkat) | To prioritize lifelong health| Be Consciously Healthy | Walk my dogs 2x/day, Stretch 2 everyday |
