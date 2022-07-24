@@ -15,7 +15,10 @@ export default function Profile({ profile }) {
 
         <div className="mt-4">📍 {profile.location}</div>
         <div className="mt-4">
-          My goal is:<span className="font-semibold"> {profile.goal}</span>
+          My goal is:
+          <span className="font-semibold ml-1">
+            {profile.goal ? profile.goal : "-"}
+          </span>
         </div>
       </div>
     </>

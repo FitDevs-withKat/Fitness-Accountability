@@ -27,8 +27,6 @@ export async function getStaticProps() {
     };
   });
 
-  console.log(profiles);
-
   return {
     props: { profiles },
   };
