@@ -1,6 +1,6 @@
 # Fitness-Accountability
 
-##[Quick Introduction](https://fitdevs-withkat.github.io/Support/landing_page/)
+## [Quick Introduction](https://fitdevs-withkat.github.io/Support/landing_page/)
 
 ## Quickstart guide
 
