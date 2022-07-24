@@ -8,4 +8,4 @@
 | NAME | WHY | WEEKLY | GOAL |
 | :--- | :--- | :--- | :--- |
 | [Eddie Jaoude](https://github.com/eddiejaoude) | To have a break from my desk | Spin x3, Cycle x2, Gym x2 | - |
-| [Katalyst Kat](https://github.com/katalystkat) | To prioritize lifelong health| Walk my dogs 2x/day, Stretch 2 everyday | Be Consciously Healthy |
+| [Francesco Ciulla](https://francescociulla.com) | To look cool on videos and get more likes | Running 6x, Abs 6x, Pushups 6x | lose 3kg fat |
