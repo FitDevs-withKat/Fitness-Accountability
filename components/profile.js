@@ -5,6 +5,7 @@ export default function Profile({ profile }) {
         <div className="text-400 flex text-lg items-center font-semibold">
           <a
             target="_blank"
+            rel="noreferrer"
             className="hover:underline transition-all delay-75 duration-200"
             href={profile.url}
           >
