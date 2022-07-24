@@ -5,10 +5,6 @@
 - Weekly: What is your schedule
 - Goal
 
-| NAME | WHY | WEEKLY | GOAL |
-| :--- | :--- | :--- | :--- |
-| [Katalyst Kat](https://github.com/katalystkat) | To prioritize lifelong health| Walk my dogs 2x/day, Stretch 2 everyday | Be Consciously Healthy |
-
 ## Quickstart guide
 
 1. Create a JSON file in the `data` directory with your GitHub username `katalystkat.json` (file path `data/katalystkat.json`)
