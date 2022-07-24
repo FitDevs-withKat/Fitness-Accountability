@@ -11,7 +11,7 @@
 
 ## Quickstart guide
 
-1. Create json file in the `data` directory with your GitHub username `katalystkat.json` (file path `data/katalystkat.json`)
+1. Create a JSON file in the `data` directory with your GitHub username `katalystkat.json` (file path `data/katalystkat.json`)
 2. In your json file add the contents using this template below:
 
 ```json
