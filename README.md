@@ -29,6 +29,7 @@ Name your file with your GitHub username `username.json`; for example mine was `
 }
 ```
 Notes on the information: 
+
 **Name**: You can use your github name, actual name, or a pseudonym! 
 
 
