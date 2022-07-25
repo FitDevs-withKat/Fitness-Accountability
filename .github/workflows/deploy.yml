@@ -5,7 +5,7 @@ on:
      - "main"
 
 jobs:
-  docs:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,4 +21,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: build
+          folder: ./out
