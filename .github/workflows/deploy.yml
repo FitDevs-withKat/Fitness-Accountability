@@ -1,0 +1,25 @@
+name: Deploy
+on:
+  push:
+   branches:
+     - "main"
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: install dependencies
+        run: npm ci
+      - name: build app
+        run: npm run build
+      - name: deploy
+        if: github.ref == 'refs/heads/issue-161'
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build
