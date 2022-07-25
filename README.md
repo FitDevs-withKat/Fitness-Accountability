@@ -59,6 +59,24 @@ Notes on the information:
   
 Example: ![image](https://user-images.githubusercontent.com/96984912/180859482-a59aa1a7-2df6-4900-9ad5-201667205c50.png)
 
-3. Commit the changes
-4. Start a pull request!
-![image](https://user-images.githubusercontent.com/96984912/180663849-b0587045-0522-4046-9131-07915e0bbcf1.png)
+
+3. Commit the the new file! 
+
+![image](https://user-images.githubusercontent.com/109629064/180862145-2d9e9d55-4099-4660-81fd-fad3a60372f1.png)
+
+
+Select Create a new Branch! 
+
+![image](https://user-images.githubusercontent.com/109629064/180862218-99a9942e-5911-4534-9c69-180a87e99bd2.png)
+
+4. Create  a pull request!
+
+Select the green button: "Create a pull request"
+
+![image](https://user-images.githubusercontent.com/109629064/180862468-449829fb-e71f-4964-bc6b-c547f15920ea.png)
+
+Select "Create Pull Request" on the next page 
+
+![image](https://user-images.githubusercontent.com/109629064/180862550-20279183-d4e2-4367-a709-bfac1305cf67.png)
+
+
