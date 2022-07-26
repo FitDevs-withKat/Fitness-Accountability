@@ -4,14 +4,14 @@ import Profile from "../components/overview-card";
 
 export default function Home({ profiles }) {
   return (
-    <main className="container mx-auto">
+    <div>
       <Head>
         <title>Fitness-Accountability</title>
       </Head>
       {profiles.map((profile) => (
         <Profile key={profile.name} profile={profile} />
       ))}
-    </main>
+    </div>
   );
 }
 
