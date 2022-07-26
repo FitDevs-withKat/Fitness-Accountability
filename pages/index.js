@@ -4,11 +4,11 @@ import Profile from "../components/profile";
 
 export default function Home({ profiles }) {
   return (
-    <div className="container mx-auto">
+    <main className="container mx-auto">
       {profiles.map((profile) => (
         <Profile key={profile.name} profile={profile} />
       ))}
-    </div>
+    </main>
   );
 }
 
