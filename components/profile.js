@@ -1,12 +1,12 @@
 export default function Profile({ profile }) {
   return (
     <>
-      <div className="flex transition-all hover:shadow-xl cursor-pointer flex-col bg-white rounded-lg p-4 m-4 w-full">
-        <div className="text-400 flex text-lg items-center font-semibold">
+      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl">
+        <div className="text-400 flex items-center text-lg font-semibold">
           <a
             target="_blank"
             rel="noreferrer"
-            className="hover:underline transition-all delay-75 duration-200"
+            className="transition-all delay-75 duration-200 hover:underline"
             href={profile.url}
           >
             {profile.name}
@@ -17,7 +17,7 @@ export default function Profile({ profile }) {
         <div className="mt-4">📍 {profile.location}</div>
         <div className="mt-4">
           My goal is:
-          <span className="font-semibold ml-1">
+          <span className="ml-1 font-semibold">
             {profile.goal ? profile.goal : "-"}
           </span>
         </div>

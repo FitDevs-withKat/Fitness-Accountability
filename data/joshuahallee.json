@@ -1,9 +1,13 @@
 {
-    "name": "Joshua Hallee",
-    "url": "https://joshuahallee.com/",
-    "image": "https://github.com/joshuaHallee.png",
-    "why": "To help build and maintain the #FitDevs community, and to meet new people.",
-    "weekly": ["Establish food prepping recipes for balanced meals", "Cardio / general exercises", "Go for walks more often"],
-    "goal": "My goal is to improve my overall strength to be ready to climb Mount Washington in New Hampshire.",
-    "location": "Rhode Island, USA"
+  "name": "Joshua Hallee",
+  "url": "https://joshuahallee.com/",
+  "image": "https://github.com/joshuaHallee.png",
+  "why": "To help build and maintain the #FitDevs community, and to meet new people.",
+  "weekly": [
+    "Establish food prepping recipes for balanced meals",
+    "Cardio / general exercises",
+    "Go for walks more often"
+  ],
+  "goal": "My goal is to improve my overall strength to be ready to climb Mount Washington in New Hampshire.",
+  "location": "Rhode Island, USA"
 }

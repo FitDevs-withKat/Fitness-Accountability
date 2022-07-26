@@ -3,7 +3,13 @@
   "url": "https://github.com/himanshubalani",
   "image": "https://github.com/himanshubalani.png",
   "why": "I am very fat and that's not healthy.",
-  "weekly": ["Running x4", "Pushups/Planks x6", "Walking x6", "Yoga x7", "Meditate x7"],
+  "weekly": [
+    "Running x4",
+    "Pushups/Planks x6",
+    "Walking x6",
+    "Yoga x7",
+    "Meditate x7"
+  ],
   "goal": "To lose about 10-15 kg in 12 months",
   "location": "Nagpur, Maharashtra, India"
 }
