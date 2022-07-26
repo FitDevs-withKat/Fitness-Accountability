@@ -1,7 +1,6 @@
-import path from "path";
-import fs from "fs";
+import { loadProfiles } from "../util/load-profiles";
 import Head from "next/head";
-import Profile from "../components/profile";
+import Profile from "../components/overview-card";
 
 export default function Home({ profiles }) {
   return (
@@ -17,20 +16,7 @@ export default function Home({ profiles }) {
 }
 
 export async function getStaticProps() {
-  const readDirectoryPath = path.join(process.cwd(), "data");
-  const files = fs.readdirSync(readDirectoryPath);
-
-  const profiles = files.map((file) => {
-    const data = JSON.parse(
-      fs.readFileSync(`${path.join(process.cwd(), "data", file)}`, "utf8"),
-    );
-
-    return {
-      username: file.split(".")[0],
-      ...data,
-    };
-  });
-
+  const profiles = loadProfiles();
   return {
     props: { profiles },
   };

@@ -1,7 +1,16 @@
+import { useRouter } from "next/router";
+
 export default function Profile({ profile }) {
+  const handleClick = async () => {
+    await router.push(`/${profile.username}`);
+  };
+  const router = useRouter();
   return (
     <>
-      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl">
+      <div
+        onClick={() => handleClick()}
+        className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl"
+      >
         <div className="text-400 flex items-center text-lg font-semibold">
           <a
             target="_blank"
