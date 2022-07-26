@@ -1,9 +1,12 @@
 {
-    "name": "win21H2",
-    "url": "https://github.com/win21H2",
-    "image": "https://avatars.githubusercontent.com/u/92825997?v=4",
-    "why": "I wanted to have the feeling of being accountable with what I am doing as I am moving into highschool (this year!) and to improve in my leg strength/stamina",
-    "weekly": ["Steps (> 12,000)", "Plank (> 30 mins straight or in 10 min intervals)"],
-    "goal": "Be able to have the endurance to hike (if i have access to trails)/walk for at least 40 miles a week",
-    "location": "USA, IL Chicago"
-  }
+  "name": "win21H2",
+  "url": "https://github.com/win21H2",
+  "image": "https://avatars.githubusercontent.com/u/92825997?v=4",
+  "why": "I wanted to have the feeling of being accountable with what I am doing as I am moving into highschool (this year!) and to improve in my leg strength/stamina",
+  "weekly": [
+    "Steps (> 12,000)",
+    "Plank (> 30 mins straight or in 10 min intervals)"
+  ],
+  "goal": "Be able to have the endurance to hike (if i have access to trails)/walk for at least 40 miles a week",
+  "location": "USA, IL Chicago"
+}
