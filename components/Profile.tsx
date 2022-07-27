@@ -1,4 +1,6 @@
-export default function Profile({ profile }) {
+import { ProfileType } from "../types/ProfileType";
+
+export default function Profile({ profile }: { profile: ProfileType }) {
   return (
     <>
       <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl">
