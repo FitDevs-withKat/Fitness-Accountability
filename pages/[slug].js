@@ -5,12 +5,12 @@ import path from "path";
 
 export default function DetailProfile({ profile }) {
   return (
-    <div className="no-wrap md:-mx-2 md:flex">
-      <div className="w-full md:mx-2 md:w-3/12">
+    <div className="no-wrap mt-8 flex flex-col gap-4 md:flex-row">
+      <div className="w-full md:w-1/3">
         <ProfileDetail profile={profile} />
       </div>
-      <div className="mx-2 h-64 w-full md:w-9/12">
-        <DetailCard />
+      <div className="w-full md:w-3/4">
+        <DetailCard profile={profile} />
       </div>
     </div>
   );

@@ -11,7 +11,14 @@ export default function ProfileDetail({ profile }) {
         src={profile.image}
       />
       <h1 className="my-1 text-xl font-bold leading-8 text-gray-900">
-        {profile.name}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          className="underline decoration-transparent transition-all delay-[50ms] duration-200 hover:decoration-black"
+          href={profile.url}
+        >
+          {profile.name}
+        </a>
       </h1>
       <div>@{profile.username}</div>
     </aside>
