@@ -1,12 +1,18 @@
 import { loadProfilePaths, loadSingleProfile } from "../util/load-profiles";
-import ProfileDetail from "../components/profile-detail";
+import ProfileDetail from "../components/profile_detail/personal-card";
+import DetailCard from "../components/profile_detail/detail-card";
 import path from "path";
 
 export default function DetailProfile({ profile }) {
   return (
-    <main>
-      <ProfileDetail profile={profile} />
-    </main>
+    <div className="no-wrap md:-mx-2 md:flex">
+      <div className="w-full md:mx-2 md:w-3/12">
+        <ProfileDetail profile={profile} />
+      </div>
+      <div className="mx-2 h-64 w-full md:w-9/12">
+        <DetailCard />
+      </div>
+    </div>
   );
 }
 export async function getStaticPaths() {

@@ -30,5 +30,8 @@ export const loadSingleProfile = (username) => {
       "utf8",
     ),
   );
-  return profile;
+  return {
+    username,
+    ...profile,
+  };
 };
