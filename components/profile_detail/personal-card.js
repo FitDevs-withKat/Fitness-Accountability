@@ -14,7 +14,7 @@ export default function ProfileDetail({ profile }) {
         <a
           target="_blank"
           rel="noreferrer"
-          className="underline decoration-transparent transition-all delay-[50ms] duration-200 hover:decoration-black"
+          className="text-theme-secodary underline decoration-transparent transition-all delay-[50ms] duration-200 hover:decoration-inherit"
           href={profile.url}
         >
           {profile.name}
