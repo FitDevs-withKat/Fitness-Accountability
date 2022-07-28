@@ -36,7 +36,10 @@ export default function DetailCard({ profile }) {
           <div>
             <ul>
               {profile.weekly.map((item) => (
-                <li className=" flex items-center justify-center text-center font-semibold">
+                <li
+                  key={item}
+                  className=" flex items-center justify-center text-center font-semibold"
+                >
                   {item}
                 </li>
               ))}
