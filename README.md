@@ -1,5 +1,7 @@
 # Fitness-Accountability
 
+## [Join the FitDevs Community on Discord](https://discord.gg/7Stnsa2JQE)
+
 ## [Quick Introduction](https://fitdevs-withkat.github.io/Support/landing_page/)
 
 ## Quickstart guide
