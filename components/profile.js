@@ -14,7 +14,7 @@ export default function Profile({ profile }) {
           <div className="ml-4">@{profile.username}</div>
         </div>
 
-        <div className="mt-4">📍 {profile.location}</div>
+        <div className="mt-4"><img className="location-icon" src="/location.svg"/>{profile.location}</div>
         <div className="mt-4">
           My goal is:
           <span className="ml-1 font-semibold">
