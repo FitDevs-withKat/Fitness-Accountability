@@ -5,3 +5,8 @@
 body {
   @apply bg-[#f5f4f4];
 }
+
+.location-icon {
+  width: 32px;
+  display: inline;
+}
