@@ -3,7 +3,12 @@
   "url": "https://github.com/mariahlaqua",
   "image": "https://avatars.githubusercontent.com/u/78166655?v=4",
   "why": "To keep my mind sharp and to delay alzheimer's, which runs in my family.",
-  "weekly": ['Running 3-6x', 'Corework 3x', 'Road bike cycling 3x', 'Cold Shower everyday!'],
+  "weekly": [
+    "Running 3-6x",
+    "Corework 3x",
+    "Road bike cycling 3x",
+    "Cold Shower everyday!"
+  ],
   "goal": "Half marathon in October, aerobic exercise in general! No injuries",
   "location": "Amsterdam, Netherlands"
 }

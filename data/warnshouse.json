@@ -3,7 +3,11 @@
   "url": "https://github.com/warnshouse",
   "image": "https://github.com/warnshouse.png",
   "why": "For accountability and inspiration from fellow devs",
-  "weekly": ["Drink 250ml water 8x/day", "40+ mins cardio 4x/week", "Pushups 3x/week"],
+  "weekly": [
+    "Drink 250ml water 8x/day",
+    "40+ mins cardio 4x/week",
+    "Pushups 3x/week"
+  ],
   "goal": "To live healthier for my family and myself",
   "location": "USA"
 }
