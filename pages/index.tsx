@@ -1,9 +1,10 @@
 import path from "path";
 import fs from "fs";
 import Head from "next/head";
-import Profile from "../components/profile";
+import Profile from "../components/Profile";
+import { ProfileType } from "../types/ProfileType";
 
-export default function Home({ profiles }) {
+export default function Home({ profiles }: { profiles: ProfileType[] }) {
   return (
     <main className="container mx-auto">
       <Head>
