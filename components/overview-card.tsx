@@ -3,8 +3,8 @@ import { basePath } from "../util/helper";
 
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
-    <a href={`${basePath}/${profile.username}`}>
-      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl">
+    <a className="" href={`${basePath}/${profile.username}`}>
+      <div className="m-4 flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg bg-white p-4 text-center transition-all hover:shadow-xl">
         <div className="text-400 flex items-center text-lg font-semibold">
           <a
             target="_blank"
