@@ -8,7 +8,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   assetPrefix: "./",
-  // basePath,
+  basePath,
 };
 
 module.exports = nextConfig;
