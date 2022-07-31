@@ -27,7 +27,7 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
         <title>Fitness-Accountability</title>
       </Head>
       <SearchFilter searchString={searchString} setSearchString={setSearchString} />
-      { filteredProfiles.length === 0 && searchString === ""
+      {filteredProfiles.length === 0 && searchString === ""
         ? profiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
         : filteredProfiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
       }
