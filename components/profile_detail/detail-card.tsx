@@ -33,7 +33,7 @@ export default function DetailCard({ profile }: { profile: ProfileType }) {
       <div className="grid">
         <div className="grid grid-cols-2">
           <div className="flex items-center justify-center text-center">
-            Weekly 🏋️
+            Weekly
           </div>
           <div>
             <ul>
