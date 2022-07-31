@@ -1,4 +1,6 @@
-export default function ProfileDetail({ profile }) {
+import { ProfileType } from "../../types/ProfileType";
+
+export default function ProfileDetail({ profile }: { profile: ProfileType }) {
   return (
     <aside className="flex flex-col items-center rounded-xl bg-white p-8 shadow-lg">
       <img

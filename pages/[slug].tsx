@@ -2,8 +2,9 @@ import { loadProfilePaths, loadSingleProfile } from "../util/load-profiles";
 import ProfileDetail from "../components/profile_detail/personal-card";
 import DetailCard from "../components/profile_detail/detail-card";
 import path from "path";
+import { ProfileType } from "../types/ProfileType";
 
-export default function DetailProfile({ profile }) {
+export default function DetailProfile({ profile }: { profile: ProfileType }) {
   return (
     <div className="no-wrap mt-8 flex flex-col gap-4 md:flex-row">
       <div className="w-full md:w-1/3">

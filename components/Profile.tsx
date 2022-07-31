@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
+import { ProfileType } from "../types/ProfileType";
+import { basePath } from "../util/helper";
 
-export default function Profile({ profile }) {
+export default function Profile({ profile }: { profile: ProfileType }) {
   const handleClick = async () => {
     await router.push(`/${profile.username}`);
   };
@@ -23,7 +25,14 @@ export default function Profile({ profile }) {
           <div className="ml-4">@{profile.username}</div>
         </div>
 
-        <div className="mt-4">📍 {profile.location}</div>
+        <div className="mt-4">
+          <img
+            alt="SVG of Location Pointer"
+            className="location-icon"
+            src={`${basePath}/location.svg`}
+          />
+          {profile.location}
+        </div>
         <div className="mt-4">
           My goal is:
           <span className="ml-1 font-semibold">

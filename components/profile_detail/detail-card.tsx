@@ -1,4 +1,6 @@
-export default function DetailCard({ profile }) {
+import { ProfileType } from "../../types/ProfileType";
+
+export default function DetailCard({ profile }: { profile: ProfileType }) {
   return (
     <div className="flex flex-col rounded-xl bg-white p-8 shadow-lg">
       <div className="grid">

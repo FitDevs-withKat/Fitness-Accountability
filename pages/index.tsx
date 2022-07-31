@@ -1,8 +1,9 @@
 import { loadProfiles } from "../util/load-profiles";
 import Head from "next/head";
 import OverviewCard from "../components/overview-card";
+import { ProfileType } from "../types/ProfileType";
 
-export default function Home({ profiles }) {
+export default function Home({ profiles }: { profiles: ProfileType[] }) {
   return (
     <div>
       <Head>
