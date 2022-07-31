@@ -1,10 +1,9 @@
-import Link from "next/link";
 import { ProfileType } from "../types/ProfileType";
 import { basePath } from "../util/helper";
 
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
-    <Link href={`/${profile.username}`}>
+    <a href={`${basePath}/${profile.username}`}>
       <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl">
         <div className="text-400 flex items-center text-lg font-semibold">
           <a
@@ -34,6 +33,6 @@ export default function OverviewCard({ profile }: { profile: ProfileType }) {
           </span>
         </div>
       </div>
-    </Link>
+    </a>
   );
 }
