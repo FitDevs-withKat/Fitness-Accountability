@@ -24,6 +24,7 @@ export default function OverviewCard({ profile }: { profile: ProfileType }) {
             alt="SVG of Location Pointer"
             src={`${basePath}/location.svg`}
           />
+
           {profile.location}
         </div>
         <div className="mt-4">

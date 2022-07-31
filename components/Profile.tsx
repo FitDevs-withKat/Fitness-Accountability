@@ -1,18 +1,11 @@
-import { useRouter } from "next/router";
+import Link from "next/link";
 import { ProfileType } from "../types/ProfileType";
 import { basePath } from "../util/helper";
 
-export default function Profile({ profile }: { profile: ProfileType }) {
-  const handleClick = async () => {
-    await router.push(`/${profile.username}`);
-  };
-  const router = useRouter();
+export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
-    <>
-      <div
-        onClick={() => handleClick()}
-        className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl"
-      >
+    <Link href={`/${profile.username}`}>
+      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl">
         <div className="text-400 flex items-center text-lg font-semibold">
           <a
             target="_blank"
@@ -40,6 +33,6 @@ export default function Profile({ profile }: { profile: ProfileType }) {
           </span>
         </div>
       </div>
-    </>
+    </Link>
   );
 }
