@@ -55,7 +55,7 @@ Notes on the information:
 
 Example: ![image](https://user-images.githubusercontent.com/96984912/180859482-a59aa1a7-2df6-4900-9ad5-201667205c50.png)
 
-3. Commit the the new file!
+3. Commit the new file!
 
 ![image](https://user-images.githubusercontent.com/109629064/180862145-2d9e9d55-4099-4660-81fd-fad3a60372f1.png)
 
