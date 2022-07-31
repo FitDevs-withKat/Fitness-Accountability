@@ -22,7 +22,7 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
   },[searchString, filterBySearchString])
 
   return (
-    <main>
+    <div>
       <Head>
         <title>Fitness-Accountability</title>
       </Head>
@@ -31,7 +31,7 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
         ? profiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
         : filteredProfiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
       }
-    </main>
+    </div>
   );
 }
 
