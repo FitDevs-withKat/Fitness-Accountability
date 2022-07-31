@@ -1,9 +1,9 @@
 import { loadProfiles } from "../util/load-profiles";
 import Head from "next/head";
-import OverviewCard from "../components/overview-card";
 import { ProfileType } from "../types/ProfileType";
 import SearchFilter from "../components/SearchFilter";
 import { useCallback, useEffect, useState } from "react";
+import OverviewCard from "../components/Profile";
 
 export default function Home({ profiles }: { profiles: ProfileType[] }) {
   const [searchString, setSearchString] = useState("")
@@ -11,11 +11,10 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
 
   const filterBySearchString = useCallback(() => {
     if(searchString !== ""){
-      const filteredProfiles = profiles.filter(profile => profile.name.toLowerCase().includes(searchString) || profile.location.toLowerCase().includes(searchString))
-      setFilteredProfiles(filteredProfiles)
-    } else {
-      setFilteredProfiles([])
-    }
+      const filteredProfiles = profiles.filter(profile => profile.name.toLowerCase().includes(searchString.toLowerCase()) || profile.location.toLowerCase().includes(searchString.toLowerCase()))
+      return setFilteredProfiles(filteredProfiles)
+    } 
+    return setFilteredProfiles([])
   },[profiles, searchString])
 
   useEffect(() => {
@@ -23,7 +22,7 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
   },[searchString, filterBySearchString])
 
   return (
-    <div>
+    <main>
       <Head>
         <title>Fitness-Accountability</title>
       </Head>
@@ -32,7 +31,7 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
         ? profiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
         : filteredProfiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
       }
-    </div>
+    </main>
   );
 }
 
