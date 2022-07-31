@@ -1,0 +1,18 @@
+
+tasks:
+  - init: npm install
+    command: npm run dev
+
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss
+
+github:
+  prebuilds:
+    master: true
+    branches: false
+    pullRequests: true
+    pullRequestsFromForks: false
+    addCheck: true
+    addComment: false
+    addBadge: true
