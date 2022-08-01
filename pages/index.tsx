@@ -12,9 +12,10 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
   const filterBySearchString = useCallback(() => {
     if(searchString !== ""){
       const filteredProfiles = profiles.filter(profile => profile.name.toLowerCase().includes(searchString.toLowerCase()) || profile.location.toLowerCase().includes(searchString.toLowerCase()))
-      return setFilteredProfiles(filteredProfiles)
-    } 
-    return setFilteredProfiles([])
+      setFilteredProfiles(filteredProfiles)
+    } else {
+      setFilteredProfiles([])
+    }
   },[profiles, searchString])
 
   useEffect(() => {
