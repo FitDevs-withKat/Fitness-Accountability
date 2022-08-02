@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface SearchFilterProps {
+type SearchFilterProps = {
   searchString: string,
   setSearchString: (searchTerm: string) => void
 }
