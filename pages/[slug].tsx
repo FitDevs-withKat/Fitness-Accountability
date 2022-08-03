@@ -6,13 +6,8 @@ import { ProfileType } from "../types/ProfileType";
 
 export default function DetailProfile({ profile }: { profile: ProfileType }) {
   return (
-    <div className="no-wrap mt-8 flex flex-col gap-4 md:flex-row">
-      <div className="w-full md:w-1/3">
-        <ProfileDetail profile={profile} />
-      </div>
-      <div className="w-full md:w-3/4">
+    <div className="flex justify-center">
         <DetailCard profile={profile} />
-      </div>
     </div>
   );
 }

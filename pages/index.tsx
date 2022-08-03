@@ -3,7 +3,8 @@ import Head from "next/head";
 import { ProfileType } from "../types/ProfileType";
 import SearchFilter from "../components/SearchFilter";
 import { useCallback, useEffect, useState } from "react";
-import OverviewCard from "../components/Profile";
+import Profiles from "../components/Profiles";
+import Heading from "../components/Heading";
 
 export default function Home({ profiles }: { profiles: ProfileType[] }) {
   const [searchString, setSearchString] = useState("")
@@ -23,15 +24,16 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
   },[searchString, filterBySearchString])
 
   return (
-    <div>
+    <div className="container mx-4 md:mx-auto">
       <Head>
         <title>Fitness-Accountability</title>
       </Head>
+
       <SearchFilter searchString={searchString} setSearchString={setSearchString} />
-      {filteredProfiles.length === 0 && searchString === ""
-        ? profiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
-        : filteredProfiles.map((profile) => <OverviewCard key={profile.name} profile={profile} />) 
-      }
+        {filteredProfiles.length === 0 && searchString === ""
+          ? <Profiles profiles={profiles} /> 
+          : <Profiles profiles={filteredProfiles} /> 
+        }
     </div>
   );
 }

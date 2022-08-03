@@ -10,17 +10,17 @@ export default function ProfileDetail({ profile }: { profile: ProfileType }) {
         width={150}
         src={profile.image}
       />
-      <h1 className="my-1 text-xl font-bold leading-8 text-gray-900">
+      <div className="my-1 text-xl font-bold leading-8 text-gray-900">
         <a
           target="_blank"
           rel="noreferrer"
           className="text-theme-secodary underline decoration-transparent transition-all delay-[50ms] duration-200 hover:decoration-inherit"
           href={profile.url}
         >
-          {profile.name}
+          {profile.name} <span className="text-sm">(@{profile.username})</span>
         </a>
-      </h1>
-      <div>@{profile.username}</div>
+      </div>
+      <span>@{profile.location}</span>
     </aside>
   );
 }
