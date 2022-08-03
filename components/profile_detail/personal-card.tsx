@@ -20,7 +20,7 @@ export default function ProfileDetail({ profile }: { profile: ProfileType }) {
           {profile.name} <span className="text-sm">(@{profile.username})</span>
         </a>
       </div>
-      <span>@{profile.location}</span>
+      <span>{profile.location}</span>
     </aside>
   );
 }
