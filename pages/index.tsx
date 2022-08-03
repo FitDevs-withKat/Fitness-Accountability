@@ -24,7 +24,7 @@ export default function Home({ profiles }: { profiles: ProfileType[] }) {
   },[searchString, filterBySearchString])
 
   return (
-    <div className="container mx-4 md:mx-auto">
+    <div className="">
       <Head>
         <title>Fitness-Accountability</title>
       </Head>
