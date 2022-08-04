@@ -19,9 +19,22 @@ export const loadProfiles = () => {
       username: file.split(".")[0],
       ...data,
     };
-  });
+  }).sort(sortByName);
   return profiles;
 };
+
+const sortByName = (profile1, profile2) => {
+  const name1 = profile1.name.toLowerCase();
+  const name2 = profile2.name.toLowerCase();
+  if (name1 < name2) {
+    return -1;
+  }
+  if (name1 > name2) {
+    return 1;
+  }
+
+  return 0;
+}
 
 export const loadSingleProfile = (username) => {
   const profile = JSON.parse(
