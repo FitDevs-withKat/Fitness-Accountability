@@ -9,7 +9,7 @@ export default function DetailProfile({ profile }: { profile: ProfileType }) {
   return (
     <div>
       <Head>
-        <title>Fitness-Accountability</title>
+        <title>Fitness-Accountability {profile.name}</title>
       </Head>
       <div className="no-wrap mt-8 flex flex-col gap-4 md:flex-row">
         <div className="w-full md:w-1/3">
