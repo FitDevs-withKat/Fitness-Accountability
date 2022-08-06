@@ -4,7 +4,7 @@ import { basePath } from "../util/helper";
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
     <a href={`${basePath}/${profile.username}`}>
-      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl">
+      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl border-8 border-sky-500">
         <div className="text-400 flex items-center text-lg font-semibold">
           <a
             target="_blank"
