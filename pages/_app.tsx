@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import 'remixicon/fonts/remixicon.css'
 import Layout from "../components/layout";
 import Head from "next/head";
 import { AppProps } from "next/app";
