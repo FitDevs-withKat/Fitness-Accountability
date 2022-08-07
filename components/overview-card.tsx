@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { ProfileType } from "../types/ProfileType";
 import { basePath } from "../util/helper";
-import Image from 'next/image'
 
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
@@ -22,7 +22,9 @@ export default function OverviewCard({ profile }: { profile: ProfileType }) {
           <Image
             className="location-icon"
             alt="SVG of Location Pointer"
-            src={`${basePath}/location.svg`}
+            src={"/location.svg"}
+            width={48}
+            height={48}
           />
           {profile.location}
         </div>
