@@ -22,7 +22,14 @@ The main objective of this file is a walkthrough of how to setup and run this ap
 
 ### Quick access index
 
-`NOTE: add table w/ links to the different parts of this guide`
+`the quick access index links are not working`
+
+images for steps BELOW<br>
+![image](https://user-images.githubusercontent.com/92825997/183276666-7376fc2e-547a-43b6-9296-bc92873b0e26.png)<br>
+![image](https://user-images.githubusercontent.com/92825997/183276677-4263f38a-4496-4cf3-810d-38cf5c78dfd9.png)<br>
+![image](https://user-images.githubusercontent.com/92825997/183276696-90dc6901-5826-45fd-aefe-fe4bd008909d.png)<br>
+![image](https://user-images.githubusercontent.com/92825997/183276716-f2f3eed9-43fd-47d2-bfb8-4e2c42afc5d2.png)<br>
+
 
 #### Step 1 - Clone and open in Visual Studio Code
 
