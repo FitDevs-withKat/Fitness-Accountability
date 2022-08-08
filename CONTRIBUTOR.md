@@ -4,6 +4,11 @@
 
 ##### Note that this file walks you through using Github Desktop + Visual Studio Code
 
+### Quick access index
+
+`TODO`
+
+
 ### Objectives
 
 The main objective of this file is a walkthrough of how to setup and run this application locally and is for maintainers and contributors alike! If at any point anything becomes unclear, please create an issue with which steps are confusing and tag `win21H2`.
@@ -20,11 +25,15 @@ The main objective of this file is a walkthrough of how to setup and run this ap
 <a href="https://desktop.github.com/" target="_blank">Github Desktop</a><br>
 <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>
 
-### Quick access index
+### Helpful extensions for this application
 
-`the quick access index links are not working`
+`TODO`
 
-#### Step 1 - Clone and open in Visual Studio Code
+### Documentation
+
+`TODO`
+
+## Step 1 - Clone and open in Visual Studio Code
 
 Firstly, you want to head over to the green `code` button. Next, you will have to go to the `HTTPS` section and copy the URL which is provided (you can click the small copy icon to the right of the link).<br>
 
@@ -55,21 +64,61 @@ At this point, do not click `Create Pull Request` because you have not added any
 
 Note that the editor you use does not have to be Visual Studio Code and if you would like to change it, there is a link `Options`, click on that and change the editor to the one you want to use.
 
-#### Step 2 - Run the NextJS application
+## Step 2 - Run the NextJS application
 
-#### Step 3 - Exit/kill the application
+Firstly, you will need to run in the integrated terminal (VSCode) the command `npm i`. This will look in the package.json file and install the needed packages for the application to run.<br>
 
-#### Step 4 - Commit the changes to your branch
+It should look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183319872-6de5590c-5d15-4a18-ab76-3e0ce64c0beb.png)<br>
 
-#### Step 5 - Push and create a pull request
+Then, you want to run `npm i next` which will install next which allows you to run the application<br>
 
-#### Step 6 - Celebrate!
+It should look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183319960-a2eeb5b2-934b-4283-a31e-fde66f4c8bec.png)<br>
 
-INITIAL NOTES
-how to clone and run the application locally
-link for localhost
+And at last in order to run the application, type out the command `npm run dev` which will start up a development server @ the address: `http://localhost:3000`<br>
+
+It should look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183320111-aead1cae-b5ca-4f54-a895-6b5513f0eb0b.png)<br>
+
+Well done! You have just learnt how to start up a NextJS application using a CLI
+
+## Step 3 - Exit/kill the application
+
+In order to stop the application, all you have to do is go to the terminal and hit `Ctrl + C` and then type out `y` and it should close down the localhost address. <br>Note that you wont see any changes past this point since localhost:3000 is no longer running. If you want to get it back up and running, simply follow step 2 again!
+
+## Step 4 - Commit the changes and make a pull request
+
+Once you have made changes to the files e.g. adding in some lines of code, you now have to commit the changes to the branch. Go back to Github Desktop and you should now see some red and green lines (if you changed the files) 
+
+It should look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183320451-477b5000-a035-47e0-9a49-6e345df62c48.png)<br>
+
+Now, enter a summary such as `added CSS styling for darkmode` and a description (which is optional) such as `Added styling for darkmode effects etc.`
+
+It should now look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183320575-6df47641-9d07-465d-980e-afa248edc346.png)<br>
+
+Now, click the `Commit to` button and you should be brought back to the main page and now you have to click the `Push origin` button which will push your commit to the branch you made.
+
+It should now look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183320726-423fc72d-8aee-4ae2-b6f6-a9de2c62c647.png)<br>
+
+Now you can click the `Create Pull Request` button which should bring you to the Github website. 
+
+It should look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183320867-c6d06b9a-1417-4081-8548-35bd89cfc993.png)<br>
+
+From here you can edit any details (such as the title or the description) although if you want to keep it the same, click the `Create pull request` button.  
+
+It should look something like the below<br>
+![image](https://user-images.githubusercontent.com/92825997/183321006-cde98c8a-7665-4d71-a23f-93644d49304a.png)<br>
+
+## Step 6 - Celebrate!
+
+Congrats! You have learnt how to clone, open, run this application and then commit, and create a pull request for maintainers to review!
+
+
 links to tailwind, nextjs, react, typescript docs
 check out this repo for the main README of this repo
-add helpful extensions for VSCode/VS
-add images of running the application locally
 work on contributor guidelines
