@@ -10,7 +10,7 @@ Getting started<br>
 [Objectives](#objectives)<br>
 [Methodology](#methodology)<br>
 [Tools](#tools)<br>
-[Helpful extensions for this application](#helpful-extensions-for-this-application)<br>
+[Helpful extensions](#helpful-extensions)<br>
 [Documentation](#documentation)<br><br>
 Contribute<br>
 [Step 1 - Clone and open in Visual Studio Code](#step-1---clone-and-open-in-visual-studio-code)<br>
@@ -41,9 +41,9 @@ The main objective of this file is a walkthrough of how to setup and run this ap
 
 [↑ Go to top ↑](#quick-access-index)
 
-### Helpful extensions for this application
+### Helpful extensions
 
-`TODO`
+<a href="https://prettier.io/docs/en/editors.html">Prettier</a>
 
 [↑ Go to top ↑](#quick-access-index)
 
