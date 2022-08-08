@@ -6,8 +6,8 @@
 
 ### Quick access index
 
-`TODO`
-
+[Step 1](#step-1)
+^ these links for some reason do NOT work ^
 
 ### Objectives
 
@@ -33,7 +33,7 @@ The main objective of this file is a walkthrough of how to setup and run this ap
 
 `TODO`
 
-## Step 1 - Clone and open in Visual Studio Code
+# Step 1 - Clone and open in Visual Studio Code
 
 Firstly, you want to head over to the green `code` button. Next, you will have to go to the `HTTPS` section and copy the URL which is provided (you can click the small copy icon to the right of the link).<br>
 
