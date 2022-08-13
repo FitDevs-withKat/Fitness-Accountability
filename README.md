@@ -15,7 +15,7 @@ First, click on the `data` folder of this repository<br><br>
 Then, create a new file by clicking `Add file` and then `Create new file`<br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505565-2f6afcd2-a4e9-4b13-868e-82b3b9ab6634.png)</kbd><br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505579-9e701c4b-72c4-4e2d-8f5a-0226fad1c466.png)</kbd><br><br>
-Then, name the new file as your Github username such as `win21H2`<br>
+Then, name the new file as your Github username followed by `.json` such as `win21H2.json`<br>
 
 [↑ Go to top ↑](#quick-access-index)
 
@@ -39,10 +39,13 @@ and fill out the information (make sure to look at the notes below)<br><br>
 > - **Url**: Please insert Github link here, we will expand the user json files to include socials in the future
 > - **Image**: You can use any appropriate profile image here
 > - **Why**: Please write down your reason why you have joined the #FitDevs community!
-> - **Weekly**: Your goals for fitness, can be food/exercise/mental/emotional, whatever fitness means to YOU
+> - **Weekly**: Your goals for fitness, can be food/exercise/mental/emotional, whatever fitness means to YOU<br><br>
 > Such as the below
 ```json
 ["Running 6x", "Abs 6x", "Pushups 6x"]
+```
+> or
+```json
 ["Drinking 500ml Water 3/day", "Meatless Mondays 2x/month", "Sleeping 7h 6/week"]
 ```
 > - **Goal**: What is your overarching goal?
@@ -54,7 +57,7 @@ and fill out the information (make sure to look at the notes below)<br><br>
 
 ### Step 3 - Commit the file
 Make sure that before you click the `Propose new file` button, that you have made the below changes:
- - Fill out the title, this can just be `Create JSON file
+ - Fill out the title, this can just be `Create JSON file1
  - Fill out a summary, this can just be `created my JSON file in the data directory`
  - Create a new branch for this commit and start a pull request
 <br><br>
@@ -69,3 +72,5 @@ By now, you should be brought to a new page, click the green `Create pull reques
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505881-e7280a6c-4192-465f-a5c4-4114c40438f6.png)</kbd><br>
 
 [↑ Go to top ↑](#quick-access-index)
+
+If there are any issues such as ones related to the complexity of this guide, please create an issue and we will try to fix it as fast as possible! Thanks!
