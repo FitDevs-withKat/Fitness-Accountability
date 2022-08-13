@@ -35,19 +35,19 @@ In the file you just made, copy and paste the below template:<br>
 <br>
 and fill out the information (make sure to look at the notes below)<br><br>
 
- - Name: You can use your github name, actual name, or a pseudonym!
- - Url: Please insert Github link here, we will expand the user json files to include socials in the future
- - Image: You can use any appropriate profile image here
- - Why: Please write down your reason why you have joined the #FitDevs community!
- - Weekly: Your goals for fitness, can be food/exercise/mental/emotional, whatever fitness means to YOU
- > Such as the below
+> - **Name**: You can use your github name, actual name, or a pseudonym!
+> - **Url**: Please insert Github link here, we will expand the user json files to include socials in the future
+> - **Image**: You can use any appropriate profile image here
+> - **Why**: Please write down your reason why you have joined the #FitDevs community!
+> - **Weekly**: Your goals for fitness, can be food/exercise/mental/emotional, whatever fitness means to YOU
+> Such as the below
 ```json
 ["Running 6x", "Abs 6x", "Pushups 6x"]
 ["Drinking 500ml Water 3/day", "Meatless Mondays 2x/month", "Sleeping 7h 6/week"]
 ```
- - Goal: What is your overarching goal?
- - Location: Be as vague or as specific as you would like to
- > A full example below:<br><br>
+> - **Goal**: What is your overarching goal?
+> - **Location**: Be as vague or as specific as you would like to<br><br>
+> A full example below:<br><br>
  <kbd>![image](https://user-images.githubusercontent.com/92825997/184505823-f83b2f5b-1547-45a0-b460-c120c1173495.png)</kbd><br>
 
 [↑ Go to top ↑](#quick-access-index)
