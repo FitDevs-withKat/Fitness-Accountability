@@ -8,13 +8,12 @@
 [Step 2 - Inputting information in the JSON file](#step-2---inputting-information-in-the-json-file)<br>
 [Step 3 - Commit the file](#step-3---commit-the-file)<br>
 [Step 4 - Create a pull request](#step-4---create-a-pull-request)<br>
-[]()<br>
 
 ### Step 1 - Creating a JSON file in the data directory
 First, click on the `data` folder of this repository<br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505554-d5617a88-df44-4bec-9c1e-eddbc2673e88.png)</kbd><br><br>
 Then, create a new file by clicking `Add file` and then `Create new file`<br><br>
-<kbd>![image](https://user-images.githubusercontent.com/92825997/184505565-2f6afcd2-a4e9-4b13-868e-82b3b9ab6634.png)</kbd><br>
+<kbd>![image](https://user-images.githubusercontent.com/92825997/184505565-2f6afcd2-a4e9-4b13-868e-82b3b9ab6634.png)</kbd><br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505579-9e701c4b-72c4-4e2d-8f5a-0226fad1c466.png)</kbd><br><br>
 Then, name the new file as your Github username such as `win21H2`<br>
 
@@ -39,7 +38,7 @@ and fill out the information (make sure to look at the notes below)<br><br>
  - Name: You can use your github name, actual name, or a pseudonym!
  - Url: Please insert Github link here, we will expand the user json files to include socials in the future
  - Image: You can use any appropriate profile image here
- - Why : Please write down your reason why you have joined the #FitDevs community!
+ - Why: Please write down your reason why you have joined the #FitDevs community!
  - Weekly: Your goals for fitness, can be food/exercise/mental/emotional, whatever fitness means to YOU
  > Such as the below
 ```json
@@ -64,9 +63,9 @@ Make sure that before you click the `Propose new file` button, that you have mad
 [↑ Go to top ↑](#quick-access-index)
 
 ### Step 4 - Create a pull request
-By now, you should be brought to a new page, click the green `Create pull request` button and if everything works, it should look like the last image. Congrats! you have just created your own "card" which will be shown on the <a href="https://fitdevs-withkat.github.io/Fitness-Accountability/">main website</a>
+By now, you should be brought to a new page, click the green `Create pull request` button and if everything works, it should look like the last image. Congrats! you have just created your own "card" which will manually be reviewed by a member of the Github team and will be merged! Once your pull request has beeen merged, you will be able to see it on the <a href="https://fitdevs-withkat.github.io/Fitness-Accountability/">main website</a>.
 <br><br>
-<kbd>![image](https://user-images.githubusercontent.com/92825997/184505866-6dbed0bd-4925-4ba1-8132-d4af4def4dfe.png)</kbd><br>
+<kbd>![image](https://user-images.githubusercontent.com/92825997/184505866-6dbed0bd-4925-4ba1-8132-d4af4def4dfe.png)</kbd><br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505881-e7280a6c-4192-465f-a5c4-4114c40438f6.png)</kbd><br>
 
 [↑ Go to top ↑](#quick-access-index)
