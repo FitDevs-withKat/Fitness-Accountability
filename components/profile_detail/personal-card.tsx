@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { ProfileType } from "../../types/ProfileType";
-import Image from 'next/image'
 
 export default function ProfileDetail({ profile }: { profile: ProfileType }) {
   return (
