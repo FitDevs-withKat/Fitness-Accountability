@@ -2,7 +2,7 @@
 
 #### Read guide below if you would like to know how to run this application in your local environment to test out features you'd like to implement!
 
-##### Note that this file walks you through using Github Desktop + Visual Studio Code<br> (although you can use a different editor because most of the guide uses Github Desktop)
+##### Note that this guide walks you through using Github Desktop + Visual Studio Code<br> (although you can use a different editor such as Visual Studio because most of the guide uses Github Desktop as the main subject)
 
 ### Quick access index
 
@@ -60,12 +60,12 @@ The main objective of this file is a walkthrough of how to setup and run this ap
 
 Firstly, you want to head over to the green `code` button. Next, you will have to go to the `HTTPS` section and copy the URL which is provided (you can click the small copy icon to the right of the link).<br>
 
-<kbd><img src="https://user-images.githubusercontent.com/92825997/183276666-7376fc2e-547a-43b6-9296-bc92873b0e26.png"/></kbd><br>
+<kbd><img src="https://user-images.githubusercontent.com/92825997/183276666-7376fc2e-547a-43b6-9296-bc92873b0e26.png"/></kbd><br><br>
 <kbd><img src="https://user-images.githubusercontent.com/92825997/183276677-4263f38a-4496-4cf3-810d-38cf5c78dfd9.png"/></kbd><br>
 
 Now go ahead and open up Github Desktop and click `File` and then `Clone repository...`, you should then see a `Clone repository` window pop up, go to the `URL` section on the top menu and paste the link in the `URL or username/repository` section. After that, click `Clone`<br>
 
-<kbd><img src="https://user-images.githubusercontent.com/92825997/183276696-90dc6901-5826-45fd-aefe-fe4bd008909d.png"/></kbd><br>
+<kbd><img src="https://user-images.githubusercontent.com/92825997/183276696-90dc6901-5826-45fd-aefe-fe4bd008909d.png"/></kbd><br><br>
 <kbd><img src="https://user-images.githubusercontent.com/92825997/183276716-f2f3eed9-43fd-47d2-bfb8-4e2c42afc5d2.png"/></kbd><br>
 
 You should then see something like the below
@@ -74,7 +74,7 @@ You should then see something like the below
 
 Which means you have cloned the repository to your local computer. After that, go ahead an click on the `Fetch origin` button around the top right and after it fetches, click on the button on the top that says `Current branch` and click `New branch` and name your branch. An example is `win21H2-card`<br>
 
-<kbd><img src="https://user-images.githubusercontent.com/92825997/183300444-610a1798-52f3-4ce8-b7b1-2fb82e41d502.png"/></kbd><br>
+<kbd><img src="https://user-images.githubusercontent.com/92825997/183300444-610a1798-52f3-4ce8-b7b1-2fb82e41d502.png"/></kbd><br><br>
 <kbd><img src="https://user-images.githubusercontent.com/92825997/183300513-796c711d-8941-414b-9701-92d33e424795.png"/></kbd><br>
 
 Go ahead and click the `Create branch` button and then `Publish branch`.<br>
@@ -212,6 +212,4 @@ Congrats! You have learnt how to clone, open, run this application and then comm
 
 ## Issues or something looks confusing and needs fixing?
 
-Please create an issue temple
-
-`ADD ISSUE TEMPLATE DETAILS HERE`
+Please create an issue <a href="https://github.com/FitDevs-withKat/Fitness-Accountability/issues/new?assignees=&labels=enhancement&template=contribution_guide_improvement.md&title=">here</a> and we will try to get back as soon as possible with a fix
