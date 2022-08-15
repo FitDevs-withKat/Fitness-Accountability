@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ProfileType } from "../types/ProfileType";
 import { basePath } from "../util/helper";
-import Image from 'next/image'
 
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
@@ -11,7 +10,7 @@ export default function OverviewCard({ profile }: { profile: ProfileType }) {
           <a
             target="_blank"
             rel="noreferrer"
-            className="transition-all delay-75 duration-200 hover:underline"
+            className="dely-75 transition-all duration-200 hover:underline"
             href={profile.url}
           >
             {profile.name}
@@ -20,11 +19,13 @@ export default function OverviewCard({ profile }: { profile: ProfileType }) {
         </div>
 
         <div className="mt-4">
-          <Image
-            alt="SVG of Location Pointer"
-            className="location-icon"
-            src={`${basePath}/location.svg`}
-          />
+          <picture>
+            <img
+              className="location-icon"
+              alt="SVG of Location Pointer"
+              src={`${basePath}/location.svg`}
+            />
+          </picture>
           {profile.location}
         </div>
         <div className="mt-4">

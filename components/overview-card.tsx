@@ -1,11 +1,10 @@
 import { ProfileType } from "../types/ProfileType";
 import { basePath } from "../util/helper";
-import Image from 'next/image'
 
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
     <a href={`${basePath}/${profile.username}`}>
-      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl border-8 border-sky-500">
+      <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg border-8 border-sky-500 bg-white p-4 transition-all hover:shadow-xl">
         <div className="text-400 flex items-center text-lg font-semibold">
           <a
             target="_blank"
@@ -19,11 +18,13 @@ export default function OverviewCard({ profile }: { profile: ProfileType }) {
         </div>
 
         <div className="mt-4">
-          <Image
-            className="location-icon"
-            alt="SVG of Location Pointer"
-            src={`${basePath}/location.svg`}
-          />
+          <picture>
+            <img
+              className="location-icon"
+              alt="SVG of Location Pointer"
+              src={`${basePath}/location.svg`}
+            />
+          </picture>
           {profile.location}
         </div>
         <div className="mt-4">
