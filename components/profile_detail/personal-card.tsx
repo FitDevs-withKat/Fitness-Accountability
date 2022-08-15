@@ -1,16 +1,17 @@
 import { ProfileType } from "../../types/ProfileType";
-import Image from 'next/image'
 
 export default function ProfileDetail({ profile }: { profile: ProfileType }) {
   return (
     <aside className="flex flex-col items-center rounded-xl bg-white p-8 shadow-lg">
-      <Image
-        alt={`profile picture of ${profile.name}`}
-        className="rounded-full"
-        height={150}
-        width={150}
-        src={profile.image}
-      />
+      <picture>
+        <img
+          alt={`profile picture of ${profile.name}`}
+          className="rounded-full"
+          height={150}
+          width={150}
+          src={profile.image}
+        />
+      </picture>
       <h1 className="my-1 text-xl font-bold leading-8 text-gray-900">
         <a
           target="_blank"
