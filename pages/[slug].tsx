@@ -20,7 +20,6 @@ export default function DetailProfile({ profile }: { profile: ProfileType }) {
         </div>
       </div>
     </div>
-    
   );
 }
 export async function getStaticPaths() {
