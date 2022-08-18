@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   return (
-    <Link href={`/${profile.username}`}>
+    <Link href={`${basePath}/${profile.username}`}>
       <div className="my-4 mx-auto flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl ">
         <div className="text-400 flex items-center text-lg font-semibold">
           <a
