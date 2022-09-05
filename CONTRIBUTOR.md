@@ -1,4 +1,5 @@
-# Contributor guide
+<p align="center"><img height="300" src="https://user-images.githubusercontent.com/92825997/188366841-b8ce2fbe-3671-4784-af07-c00d4db97a13.png"/></p>
+<h1 align="center">Contributor guide</h1>
 
 #### Read guide below if you would like to know how to run this application in your local environment to test out features you'd like to implement!
 
