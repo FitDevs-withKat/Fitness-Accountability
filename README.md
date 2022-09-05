@@ -1,4 +1,6 @@
-# Fitness-Accountability
+<p align="center"><img height="300" src="https://user-images.githubusercontent.com/92825997/188366841-b8ce2fbe-3671-4784-af07-c00d4db97a13.png"/></p>
+<h1 align="center">Fitness-Accountability</h1>
+
 <a href="https://t.co/DOcdsUEQmP ">Join our Discord community here!</a><br>
 <a href="https://fitdevs-withkat.github.io/Support/landing_page/">Quick Introduction</a>
 
