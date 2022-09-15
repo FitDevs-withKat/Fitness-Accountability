@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/oneMillionMinutes.css"
 import Layout from "../components/layout";
 import Head from "next/head";
 import { AppProps } from "next/app";
