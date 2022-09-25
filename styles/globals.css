@@ -10,3 +10,10 @@ body {
   width: 32px;
   display: inline;
 }
+
+.mainHeader {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
