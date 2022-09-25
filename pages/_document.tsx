@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href={`${basePath}/favicon.ico`} />
+        <link rel="icon" href={`${basePath}/fitdevslogo.ico`} />
       </Head>
       <body>
         <Main />
