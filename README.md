@@ -76,6 +76,7 @@ By now, you should be brought to a new page, click the green `Create pull reques
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505866-6dbed0bd-4925-4ba1-8132-d4af4def4dfe.png)</kbd><br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505881-e7280a6c-4192-465f-a5c4-4114c40438f6.png)</kbd><br>
 
+Find this example <a href="https://github.com/FitDevs-withKat/Fitness-Accountability/pull/201">in this sample pull request</a>
 [↑ Go to top ↑](#quick-access-index)
 
 If there are any issues such as ones related to the complexity of this guide, please create an issue and we will try to fix it as fast as possible!
