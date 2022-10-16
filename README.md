@@ -9,7 +9,7 @@
 
 [Step 1 - Creating a JSON file](#step-1---creating-a-json-file)<br>
 [Step 2 - Inputting information in the JSON file](#step-2---inputting-information-in-the-json-file)<br>
-[Step 3 - Committing your file](#step-3---committing-your-file)<br>
+[Step 3 - Committing the file](#step-3---committing-the-file)<br>
 [Step 4 - Create a pull request](#step-4---create-a-pull-request)<br>
 
 ### Step 1 - Creating a JSON file
@@ -23,7 +23,7 @@ Then, name the new file as your Github username followed by `.json` such as `win
 [↑ Go to top ↑](#quick-access-index)
 
 ### Step 2 - Inputting information in the JSON file
-In the file you just made, copy and paste the below template:<br>
+In the file you just made, copy and paste the template:<br>
 ```json
 {
   "name": "",
@@ -40,7 +40,7 @@ and fill out the information with the help of the below notes<br><br>
 
 > - **Name**: You can use your github name, actual name, or a pseudonym!
 > - **Url**: Please insert Github link here, we will expand the user json files to include socials in the future
-> - **Image**: You can use any appropriate profile image here (make sure it is a valid image URL e.g. https://avatars.githubusercontent.com/u/92825997?v=4)
+> - **Image**: You can use any appropriate profile image here (make sure it is a valid image URL e.g. https://github.com/win21H2.png)
 > - **Why**: Please write down your reason why you have joined the #FitDevs community!
 > - **Weekly**: Your goals for fitness, can be food/exercise/mental/emotional, whatever fitness means to YOU<br><br>
 > Such as the below
@@ -60,11 +60,11 @@ A full example below:<br><br>
 
 [↑ Go to top ↑](#quick-access-index)
 
-### Step 3 - Committing your file
+### Step 3 - Committing the file
 Make sure that before you click the `Propose new file` button, that you have made the below changes:
- - Fill out the title, this can just be `Create JSON file1
- - Fill out a summary, this can just be `created my JSON file in the data directory`
- - Create a new branch for this commit and start a pull request
+ - Fill out the title, this can just be `Create [USERNAME].json`
+ - Fill out a summary, this can just be `Added information to my JSON file`
+ - Create a new branch and name it something like `[USERNAME]-my-card` and start a pull request by clicking the `Propose new file` button.
 <br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505853-a843023c-d168-4e97-9f9d-28c9b9d39939.png)</kbd><br>
 
