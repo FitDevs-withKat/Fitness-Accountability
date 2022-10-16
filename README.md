@@ -51,7 +51,7 @@ and fill out the information with the help of the below notes<br><br>
 ```json
 ["Drinking 500ml Water 3/day", "Meatless Mondays 2x/month", "Sleeping 7h 6/week"]
 ```
-> Please make sure to use commas in between each goal otherwise it would break
+> Please make sure to use commas in between each goal otherwise it would break the JSON file
 > - **Goal**: What is your overarching goal?
 > - **Location**: Be as vague or as specific as you would like to<br><br>
 
@@ -76,10 +76,11 @@ By now, you should be brought to a new page, click the green `Create pull reques
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505866-6dbed0bd-4925-4ba1-8132-d4af4def4dfe.png)</kbd><br><br>
 <kbd>![image](https://user-images.githubusercontent.com/92825997/184505881-e7280a6c-4192-465f-a5c4-4114c40438f6.png)</kbd><br>
 
-Find this example <a href="https://github.com/FitDevs-withKat/Fitness-Accountability/pull/201">in this sample pull request</a>
+Find this example <a href="https://github.com/FitDevs-withKat/Fitness-Accountability/pull/201">in this sample pull request</a><br>
+
+If there are any issues such as ones related to this guide, please <a href="https://github.com/FitDevs-withKat/Fitness-Accountability/issues/new?assignees=&labels=enhancement&template=contribution_guide_improvement.md&title=Main%20README%20[ISSUE%20TITLE%20HERE]">create an issue</a> and we will try to fix it as fast as possible!
+
+Thanks,<br>
+The #FitDevs GitHub team
+
 [↑ Go to top ↑](#quick-access-index)
-
-If there are any issues such as ones related to the complexity of this guide, please create an issue and we will try to fix it as fast as possible!
-
-Thanks,
-The #FitDevs github team
