@@ -7,12 +7,7 @@ export default function OverviewCard({ profile }: { profile: ProfileType }) {
     <a href={`${basePath}/${profile.username}`}>
       <div className="m-4 flex w-full cursor-pointer flex-col rounded-lg border-8 border-sky-500 bg-white p-4 transition-all hover:shadow-xl">
         <div className="text-400 flex items-center text-lg font-semibold">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className="transition-all delay-75 duration-200 hover:underline"
-            href={profile.url}
-          >
+          <a target="_blank" rel="noreferrer" className="transition-all delay-75 duration-200 hover:underline" href={profile.url}>
             {profile.name}
           </a>
           <div className="ml-4">@{profile.username}</div>
