@@ -1,8 +1,12 @@
 <p align="center"><img height="300" src="https://user-images.githubusercontent.com/92825997/188366841-b8ce2fbe-3671-4784-af07-c00d4db97a13.png"/></p>
-<h1 align="center">Fitness-Accountability</h1>
+<h1 align="center">Fitness-Accountability @ <a href="https://twitter.com/search?q=%23FitDevs&src=typed_query">#FitDevs</a></h1>
 
-<a href="https://t.co/DOcdsUEQmP ">Join our Discord community!</a><br>
-<a href="https://twitter.com/search?q=%23FitDevs&src=typed_query">Find us on Twitter</a><br>
+<h3 align="center">
+<a href="https://t.co/DOcdsUEQmP">Discord</a> | 
+  <a href="https://twitter.com/search?q=%23FitDevs&src=typed_query">Twitter</a>
+</h3>
+
+
 <a href="https://fitdevs-withkat.github.io/Support/landing_page/">Quick Introduction</a>
 
 ### Quick access index
