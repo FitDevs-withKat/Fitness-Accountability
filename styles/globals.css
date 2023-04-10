@@ -7,6 +7,12 @@ body {
 }
 
 .location-icon {
-  width: 32px;
+  width: 10px;
   display: inline;
+}
+
+.card-profile-image {
+  width: 10px;
+  display: inline;
+  border-radius: 3px;
 }
