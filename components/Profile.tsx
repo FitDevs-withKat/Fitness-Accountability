@@ -6,10 +6,6 @@ import Image from "next/image";
 export default function OverviewCard({ profile }: { profile: ProfileType }) {
   // TODO: check if there is no url provided in "profile.image" and if so, automatically fill it with the fitdevs logo
 
-  if (profile.image == "") {
-    console.log(profile.username + " does not have a profile image")
-  }
-
   return (
     <Link href={`${basePath}/${profile.username}`}>
       <div className="my-4 mx-auto flex w-full cursor-pointer flex-col rounded-lg bg-white p-4 transition-all hover:shadow-xl ">

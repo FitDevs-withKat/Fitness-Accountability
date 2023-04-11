@@ -14,11 +14,5 @@ body {
 .card-profile-image {
   width: 28px;
   display: inline;
-  border-radius: 3px;
   border-radius: 100%;
-}
-
-.locationLogo {
-  padding: 10px;
-  margin-right: 10px;
 }
