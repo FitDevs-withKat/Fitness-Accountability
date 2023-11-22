@@ -15,6 +15,9 @@ export const loadProfiles = () => {
       fs.readFileSync(`${path.join(process.cwd(), "data", file)}`, "utf8"),
     );
 
+    data.name = capitalizeStrings(data.name);
+    data.goal = capitalizeStrings(data.goal);
+
     return {
       username: file.split(".")[0],
       ...data,
@@ -48,3 +51,7 @@ export const loadSingleProfile = (username) => {
     ...profile,
   };
 };
+
+function capitalizeStrings(str:String){
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
